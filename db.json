@@ -1,0 +1,29 @@
+{
+    "quotes": [
+        {
+            "id": "1",
+            "content": "Stay hungry, stay foolish.",
+            "author": "Steve Jobs"
+        },
+        {
+            "id": "2",
+            "content": "The only limit is your mind.",
+            "author": "Unknown"
+        },
+        {
+            "id": "3",
+            "content": "Success is not final; failure is not fatal.",
+            "author": "Winston Churchill"
+        },
+        {
+            "id": "4",
+            "content": "Simple words, repeated daily, can change your life.",
+            "author": "Maxime Lagace"
+        },
+        {
+            "id": "5",
+            "content": "Everything you've ever wanted is on the other side of fear.",
+            "author": "George Addair"
+        }
+    ]
+}
