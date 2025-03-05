@@ -24,7 +24,7 @@ export default function DatePickerInput({
             }}
             dateFormat='yyyy-MM-dd'
             placeholderText='Select due date'
-            className='p-2 rounded bg-gray-100 shadow'
+            className='p-2 rounded bg-gray-100 shadow w-full'
             popperClassName='shadow-lg'
         />
     )

@@ -21,20 +21,31 @@ export default function TaskInput() {
     }
 
     return (
-        <form onSubmit={handleSubmit} className='flex gap-2'>
-            <Input
-                type='text'
-                value={text}
-                onChange={(e) => setText(e.target.value)}
-                placeholder='Add a new task'
-                classes='flex-grow'
-            />
+        <form onSubmit={handleSubmit} className='flex flex-col gap-2'>
+            <div className='flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4'>
+                <div className='w-full'>
+                    <Input
+                        type='text'
+                        value={text}
+                        onChange={(e) => setText(e.target.value)}
+                        placeholder='Add a new task'
+                        classes='w-full'
+                    />
+                </div>
 
-            <DatePickerInput value={dueDate} onChange={setDueDate} />
+                <div className='flex items-center justify-between w-full'>
+                    <div className='w-full'>
+                        <DatePickerInput
+                            value={dueDate}
+                            onChange={setDueDate}
+                        />
+                    </div>
 
-            <Button type='submit' data-testid='add-task-button'>
-                <Save />
-            </Button>
+                    <Button type='submit' data-testid='add-task-button'>
+                        <Save />
+                    </Button>
+                </div>
+            </div>
         </form>
     )
 }
