@@ -23,3 +23,16 @@ npm run api
 ```
 npm run dev
 ```
+
+5. Run the tests with:
+
+```
+npm run test
+
+```
+
+And with coverage:
+
+```
+npx vitest run --coverage
+```
